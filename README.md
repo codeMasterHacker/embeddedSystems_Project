@@ -1,23 +1,13 @@
 # embeddedSystems_Project
 My embedded systems project consists of two Atmega1284 micro controllers communicating with each other via USART.
 
-
-
 Each micro controller has a 16 key keypad connected to its PORTA.
-
-
 
 Each micro controller has an LCD connected to its PORTC and PORTD. The LCD's data bus is connected to PORTC and the LCD's control bus (the Enable line and Register Select line) is connected to PORTD, specifically pins D7 and D6.
 
-
-
 The two microcontrollers are connected to each other by their respective PORTD pins, specifically pins D0 and D1, where their USART0 is found.
 
-
-
 The function of my project is to allow two users to send and receive alphanumeric strings to each other. Using his/her respective keypad, a user is able to type any alphanumeric string with punctuation. The string is displayed on his/her respective LCD, as the user types. When ready, the user presses the A key on the keypad to send the string to the other user. The other user receives the string, types his/her response, and sends it. The process continues as long as the the users wish.
-
-
 
 The digit keys print their respective digits.
 
