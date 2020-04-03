@@ -39,6 +39,6 @@ Pressing and holding the 8 key will cycle through the letters: U, V, W
 
 Pressing and holding the 9 key will cycle through the letters: X, Y, Z
 
-Pressing and holding the * key will cycle through the characters: '.' , '!' , '?' , ','
+Pressing and holding the * key will cycle through the characters: period , exclamation mark , question mark , comma
 
-Pressing and holding the # key will cycle through the characters: ' ' , '\'' , '&' , '$'
+Pressing and holding the # key will cycle through the characters: space , apostrophe , ampersand , dollar sign
